@@ -1,0 +1,88 @@
+/* Make sure you specify a "height: 100vh", "width: 100vw", and "margin: 0" for all your pages */
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	display: flex;
+}
+
+/* You should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+.big-boi {
+	height: 100%;
+	width: 50%;
+	display: block;  
+}
+
+.mid-boi {
+	height: 50%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	display: flex;  
+}
+
+.lil-boi {
+	height: 100%;
+	width: 50%;
+	align-items: center;
+	justify-content: center;  
+}
+
+.blue {
+	background-color: #4C4CFF;
+}
+
+.red {
+	background-color: #990000;
+}
+
+.niner-gold {
+  background-color: #B3995D;
+}
+
+.laker-gold {
+  background-color: #FDB927;
+}
+
+.sharks-teal {
+  background-color: #006D75;
+}
+
+.niner-red {
+	background-color: #aa0000;
+}
+
+.giants-orange {
+	background-color: #fe5a1d;
+}
+
+.purp {
+	background-color: #552583;
+}
+
+.black {
+	font-size: 150pt;
+	color: #000000;
+}
+
+h1 {
+	font-family: impact;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+/* Use this class on the PARENT of whatever you are trying to center; remember that the PARENT tells the CHILD what to do! */
+/* NOTE: Centering content only works when the display property is "flex"! */
+.center-content {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+/* Use this class on your image to restrict the size so it stays completely within it's parent div */
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
