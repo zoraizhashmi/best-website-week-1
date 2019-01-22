@@ -65,6 +65,10 @@ body {
 	color: #000000;
 }
 
+.opaque {
+	opacity: 0.5;
+}
+
 h1 {
 	font-family: impact;
 	color: white;
