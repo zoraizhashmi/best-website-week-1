@@ -75,6 +75,13 @@ h1 {
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.zoom {
+	transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(0.95); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 
 /* Use this class on the PARENT of whatever you are trying to center; remember that the PARENT tells the CHILD what to do! */

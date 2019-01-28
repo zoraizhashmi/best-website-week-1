@@ -2,7 +2,7 @@
 function jimmyG(el){
 	el.classList.add("opaque");
 
-	var audio = new Audio('audio/thecatch2.wav');
+	var audio = new Audio('audio/jimmygtd.wav');
 	audio.play();
 	
 	document.getElementById("niner").src = "image/jimmyg.png";
@@ -32,7 +32,7 @@ function kobeB(el){
 function jumboJ(el){
 	el.classList.add("opaque");
 	
-	var audio = new Audio('audio/goalhorn.mp3');
+	var audio = new Audio('audio/goalhorn.wav');
 	audio.play();
 	
 	document.getElementById("shark").src = "image/jumbojoe.png";
