@@ -1,39 +1,43 @@
 // "el" stands for the "element" that was just clicked
 function jimmyG(el){
-	el.classList.add("opaque");
-
 	var audio = new Audio('audio/jimmygtd.wav');
 	audio.play();
 	
 	document.getElementById("niner").src = "image/jimmyg.png";
+	
+	document.getElementById("ninerdiv").classList.add("niner-red");
+
 }
 
 // "el" stands for the "element" that was just clicked
 function busterP(el){
-	el.classList.add("opaque");
-
 	var audio = new Audio('audio/walkoff.wav');
 	audio.play();
 	
 	document.getElementById("giant").src = "image/bposey.png";
+	
+	document.getElementById("giantdiv").classList.add("giants-black");
+
 }
 
 // "el" stands for the "element" that was just clicked
 function kobeB(el){
-	el.classList.add("opaque");
-
 	var audio = new Audio('audio/lakerswin.wav');
 	audio.play();
 	
 	document.getElementById("laker").src = "image/kbryant.png";
+
+	document.getElementById("lakerdiv").classList.add("laker-gold");
+
 }
 
 // "el" stands for the "element" that was just clicked
 function jumboJ(el){
-	el.classList.add("opaque");
-	
 	var audio = new Audio('audio/goalhorn.wav');
 	audio.play();
 	
 	document.getElementById("shark").src = "image/jumbojoe.png";
+
+	document.getElementById("sharkdiv").classList.add("sharks-orange");
+	
 }
