@@ -21,17 +21,6 @@ function busterP(el){
 }
 
 // "el" stands for the "element" that was just clicked
-function kobeB(el){
-	var audio = new Audio('audio/lakerswin.wav');
-	audio.play();
-	
-	document.getElementById("laker").src = "image/kbryant.png";
-
-	document.getElementById("lakerdiv").classList.add("laker-gold");
-
-}
-
-// "el" stands for the "element" that was just clicked
 function jumboJ(el){
 	var audio = new Audio('audio/goalhorn.wav');
 	audio.play();
@@ -40,4 +29,16 @@ function jumboJ(el){
 
 	document.getElementById("sharkdiv").classList.add("sharks-orange");
 	
+}
+
+// "el" stands for the "element" that was just clicked
+function kobeB(el){
+	var audio = new Audio('audio/lakerswin.wav');
+	audio.play();
+	
+	document.getElementById("laker").src = "image/kbryant.png";
+
+	document.getElementById("lakerdiv").classList.add("laker-gold");
+	
+	document.getElementById("lakerdiv").classList.remove("purp");
 }
