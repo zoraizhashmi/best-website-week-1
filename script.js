@@ -17,6 +17,8 @@ function mikeT(el){
 	document.getElementById("angel").src = "image/troutani.png";
 	
 	document.getElementById("angeldiv").classList.add("angels-navy-blue");
+	
+	document.getElementById("angeldiv").classList.remove("angels-red");
 
 }
 
