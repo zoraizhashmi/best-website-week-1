@@ -10,13 +10,13 @@ function jimmyG(el){
 }
 
 // "el" stands for the "element" that was just clicked
-function busterP(el){
+function MikeT(el){
 	var audio = new Audio('audio/walkoff.wav');
 	audio.play();
 	
-	document.getElementById("giant").src = "image/bposey.png";
+	document.getElementById("angel").src = "image/troutani.png";
 	
-	document.getElementById("giantdiv").classList.add("giants-black");
+	document.getElementById("angeldiv").classList.add("angels-red");
 
 }
 
