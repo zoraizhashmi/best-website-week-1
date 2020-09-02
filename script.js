@@ -10,7 +10,7 @@ function jimmyG(el){
 }
 
 // "el" stands for the "element" that was just clicked
-function MikeT(el){
+function mikeT(el){
 	var audio = new Audio('audio/walkoff.wav');
 	audio.play();
 	
